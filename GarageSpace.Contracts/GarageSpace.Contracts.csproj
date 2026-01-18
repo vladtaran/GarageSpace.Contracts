@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<PackageId>GarageSpace.Contracts</PackageId>
+		<Version>0.1.0</Version>
+		<Authors>Vlad Taran</Authors>
+		<Company>GarageSpace</Company>
+		<Product>GarageSpace Contracts</Product>
+
+		<Description>
+			Shared contracts (events, DTOs) for GarageSpace microservices communication.
+		</Description>
+
+		<PackageTags>dotnet;microservices;contracts;events;rabbitmq</PackageTags>
+
+		<RepositoryUrl>https://github.com/vladtaran/GarageSpace.Contracts</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+</Project>
