@@ -1,6 +1,8 @@
-﻿namespace GarageSpace.Contracts
+﻿using GarageSpace.Contracts.Interfaces;
+
+namespace GarageSpace.Contracts
 {
-    public class VehicleJournalCreated
+    public class VehicleJournalCreated : IEventMessage
     {
         public long JournalId { get; set; }
         public long OwnerId {  get; set; }

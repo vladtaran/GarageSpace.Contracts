@@ -1,6 +1,8 @@
-﻿namespace GarageSpace.Contracts
+﻿using GarageSpace.Contracts.Interfaces;
+
+namespace GarageSpace.Contracts
 {
-    public class UserCreated
+    public class UserRegistered : IEventMessage
     {
         public long UserId { get; set; }
         public required string Name { get; set; }
