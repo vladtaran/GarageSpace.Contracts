@@ -1,6 +1,8 @@
-﻿namespace GarageSpace.Contracts
+﻿using GarageSpace.Contracts.Interfaces;
+
+namespace GarageSpace.Contracts
 {
-    public class VehicleJournalFollowedEvent
+    public class VehicleJournalFollowedEvent : IEventMessage
     {
         public long JournalId { get; init; }
         public long FollowerUserId { get; init; }

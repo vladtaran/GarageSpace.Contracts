@@ -6,7 +6,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<PackageId>GarageSpace.Contracts</PackageId>
-		<Version>0.1.1</Version>
+		<Version>0.2.1</Version>
 		<Authors>Vlad Taran</Authors>
 		<Company>GarageSpace</Company>
 		<Product>GarageSpace Contracts</Product>
